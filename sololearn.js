@@ -142,3 +142,123 @@ let bill = 1800;
 bill = (bill >= 1500) ? bill * 0.85 : bill;
 console.log(bill);
 */
+
+
+
+
+
+//The for loop = Циклы 
+
+/*
+for (let i = 0; i <= 2; i++) { 
+    console.log(i);
+  }
+
+
+let x = 0;
+for(let i=0;i<3;i++) {
+ x+=i;
+}
+console.log(x);
+
+let msg = "hello";
+for (let count = 0; count>=3; count--){
+        console.log(msg);
+}
+*/
+
+
+
+//The while loop = Цикл while 
+
+/*
+let i = 50;
+while(i>=0) {
+  console.log(i);
+  i--;
+}
+*/
+
+
+
+
+//The do...while loop = Цикл do...while 
+
+/*
+let i=10;
+do {  
+    console.log(i);
+    i--;  
+}
+while (i>=0); 
+*/
+
+
+
+//The break statement = Инструкция break 
+/*
+for(let i=0; i<10;i++) {
+    if(i==8) {
+      break;
+    }
+    console.log(i);
+  }
+
+
+  let num = 1;
+
+while(num<=10){
+    if(num == 3){
+        break;
+    }
+    console.log(num);
+    num++;
+}
+*/
+
+//continue 
+
+/*
+for(let i=0;i<20;i++) {
+    if(i == 5) {
+      continue;
+    }
+    console.log(i);
+  }
+  */
+
+  /*
+  let sum=0; 
+  for(let i=1; i<=3; i++) {
+    if (i == 2) {
+      continue; 
+    }
+    sum += i;
+  }
+  console.log(sum);
+  
+  */
+/*
+  for(let i=1; i<=10000000;i*=10) {
+    if(i==1000000) {
+      break;
+    }
+    console.log(i);
+  }  */
+
+  /*
+  let x = 0;
+  while (x<100){
+    x+=4;
+    console.log(x);
+  }
+  */
+
+/*
+  for(i = 1; i<7; i++){
+    if(i == 4){
+        break;
+    }
+    console.log(i);
+}
+*/
