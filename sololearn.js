@@ -110,6 +110,7 @@ console.log(`Dear ${name}, it isn't your day, sorry.`);
 
 //the switch statement = Инструкция switch
 
+/*
 let choice = "aj";
 
 switch(choice){
@@ -125,3 +126,19 @@ switch(choice){
     default: 
     console.log(`nothing to see here, yet`);
 }
+*/
+
+
+
+//Ternary operator =
+
+/*
+let age = 22;
+let isAdult = (age < 18) ? `Too young, because your age is ${age}`: `${age} is Old enough`;
+console.log(isAdult);
+*/
+/*
+let bill = 1800;
+bill = (bill >= 1500) ? bill * 0.85 : bill;
+console.log(bill);
+*/
