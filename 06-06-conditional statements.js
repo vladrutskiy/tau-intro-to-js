@@ -18,3 +18,7 @@ function myFunction() {
 }
 <button onclick="myFunction()">Click here</button>;
 */
+
+let x=20;
+console.log(x--);
+//console.log(x);
