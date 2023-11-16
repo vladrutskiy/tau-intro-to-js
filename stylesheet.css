@@ -68,7 +68,12 @@ table, th, td {
     table-layout: fixed;
 }
 .selected {
-    background-color: #f36f48;
+    background-color: #049456;
+    font-weight: bold;
+    color: white;
+}
+.inprogress{
+    background-color: #fa0202;
     font-weight: bold;
     color: white;
 }
