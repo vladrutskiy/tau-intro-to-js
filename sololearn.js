@@ -312,7 +312,7 @@ discount(1551);
 
 //Returning from functions = Возвращение значений функциями 
 
-
+/*
 function add(x,y){
   return x+y;
 }
@@ -320,6 +320,7 @@ function add(x,y){
 let result = add(5,6);
 let other = add(1,1);
 console.log(result + other);
+/*
 
 /*
 function divide(x,y){
@@ -328,3 +329,12 @@ function divide(x,y){
 
 divide(6,3);
 */
+
+
+
+// Shift operators
+/*
+var a=4, b=4;
+console.log(a<<b);
+console.log(a>>b);
+console.log(a**b);*/
