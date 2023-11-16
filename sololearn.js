@@ -216,6 +216,9 @@ while(num<=10){
 }
 */
 
+
+
+
 //continue 
 
 /*
@@ -261,4 +264,67 @@ for(let i=0;i<20;i++) {
     }
     console.log(i);
 }
+*/
+
+
+
+
+//Functions = Функции
+
+/*
+function login() {
+  console.log("Hi!");
+}
+
+login();
+login();
+login();
+login();
+*/
+
+
+//Parameters = Параметры
+
+/*
+//function login(user) {
+  //console.log("Hi, "+user);
+//}
+let name = "Hero"
+//login(name);
+
+
+function discount(purchase){
+  if (purchase>=1500){
+      purchase*=0.85;
+  }
+  console.log(`Hi ${name} you spent \$${purchase}`);
+}
+
+discount(1900);
+discount(1200);
+discount(0.1);
+discount(-1900);
+discount(1551);
+*/
+
+
+
+
+//Returning from functions = Возвращение значений функциями 
+
+
+function add(x,y){
+  return x+y;
+}
+
+let result = add(5,6);
+let other = add(1,1);
+console.log(result + other);
+
+/*
+function divide(x,y){
+  return x/y;
+}
+
+divide(6,3);
 */
