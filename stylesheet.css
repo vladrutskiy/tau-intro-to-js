@@ -77,6 +77,16 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
+.postponed{
+    background-color: #640799;
+    font-weight: bold;
+    color: white;
+}
+.planned{
+    background-color: #908e04;
+    font-weight: bold;
+    color: white;
+}
 li {
     margin-bottom: 15px;
     font-weight: bold;
